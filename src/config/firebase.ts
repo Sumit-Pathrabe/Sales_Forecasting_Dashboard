@@ -1,20 +1,17 @@
-import { initializeApp } from 'firebase/app';
-import { getStorage } from 'firebase/storage';
-import { getFirestore } from 'firebase/firestore';
+// src/config/firebase.ts
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "demo-api-key",
-  authDomain: "sales-dashboard-demo.firebaseapp.com",
-  projectId: "sales-dashboard-demo",
-  storageBucket: "sales-dashboard-demo.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "1:123456789:web:abcdef123456"
+  apiKey: "YOUR_KEY",
+  authDomain: "YOUR_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_BUCKET",
+  messagingSenderId: "YOUR_SENDER_ID",
+  appId: "YOUR_APP_ID",
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firebase services
-export const storage = getStorage(app);
-export const db = getFirestore(app);
-export default app;
+// ✅ Export auth so LoginPage can import it
+export const auth = getAuth(app);
