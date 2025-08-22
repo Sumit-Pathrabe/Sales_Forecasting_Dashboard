@@ -159,7 +159,7 @@ export const DatasetUpload: React.FC<DatasetUploadProps> = ({ onDataImported, on
               <div className="flex flex-col items-center">
                 <Upload className="w-12 h-12 text-gray-400 mb-4" />
                 <p className="text-gray-700 font-medium mb-2">
-                  Drag and drop your CSV file here, or click to browse
+                  Drag and drop your CSV file here, or click to browse and upload
                 </p>
                 <p className="text-sm text-gray-500 mb-4">
                   Supports CSV files up to 10MB
