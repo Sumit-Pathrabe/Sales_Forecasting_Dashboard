@@ -79,3 +79,6 @@ date,revenue,units
 - Client-side data validation
 - Encrypted data transmission
 - User data isolation and privacy protection
+- 
+
+# plz try avoiding entering file other than .csc or .xlsv(converted to csv) as the app may not be able to give results for such case.
