@@ -82,3 +82,4 @@ date,revenue,units
 - 
 
 # plz try avoiding entering file other than .csc or .xlsv(converted to csv) as the app may not be able to give results for such case.
+- do not exploit app the copyright  is for fair use only
