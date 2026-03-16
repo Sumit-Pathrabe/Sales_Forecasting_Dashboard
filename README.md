@@ -40,7 +40,7 @@ date,revenue,units
 
 1. Install dependencies:
    ```bash
-   npm install
+   
    ```
 
 2. Set up your Firebase configuration in `.env`
